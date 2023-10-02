@@ -54,8 +54,8 @@ def get_default_configs():
   data.num_channels = 3
   data.num_workers = 4
   data.normalize_sdf = True
-  data.meta_path = "PLACEHOLDER" ### metadata for all dataset files
-  data.filter_meta_path = "PLACEHOLDER" ### metadata for the list of training samples
+  data.meta_path = "PLACEHOLDE" ### metadata for all dataset files
+  data.filter_meta_path = "PLACEHOLDE" ### metadata for the list of training samples
   data.extension = 'pt' ### either 'pt' or 'npy', depending how the data are stored
 
   # model
