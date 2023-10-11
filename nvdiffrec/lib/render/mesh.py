@@ -97,6 +97,7 @@ class Mesh:
 ######################################################################################
 
 def load_mesh(filename, mtl_override=None, mtl_default=None, use_default=False, no_additional=False):
+    print(filename)
     name, ext = os.path.splitext(filename)
     if ext == ".obj":
         return obj.load_obj(filename, clear_ks=True, mtl_override=mtl_override, mtl_default=mtl_default, use_default=use_default, no_additional=no_additional)
